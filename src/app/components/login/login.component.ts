@@ -34,7 +34,6 @@ export class LoginComponent implements OnInit {
           resposta.headers.get("Authorization").substring(7)
         );
         this.router.navigate([""]);
-        console.log("aaaa");
       },
       () => {
         this.toast.error("Usuário e/ou senha inválidos!");
