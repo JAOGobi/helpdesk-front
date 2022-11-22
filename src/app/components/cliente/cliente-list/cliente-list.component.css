@@ -27,4 +27,13 @@ h1{
 
 .delete{
     color: red;
+    margin-left: 1rem;
+}
+
+.container-table{
+    overflow-x: auto;
+}
+
+.mat-table{
+    min-width: 40rem;
 }

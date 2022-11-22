@@ -21,6 +21,7 @@
     <mat-radio-button (click)="orderByStatus(2)" value="2">ENCERRADO</mat-radio-button>
   </mat-radio-group>
 
+  <div class="container-table">
   <div class="mat-elevation-z8">
     <table mat-table [dataSource]="dataSource">
       <ng-container matColumnDef="id">
@@ -80,5 +81,6 @@
       aria-label="Select page of periodic elements"
     >
     </mat-paginator>
+  </div>
   </div>
 </div>

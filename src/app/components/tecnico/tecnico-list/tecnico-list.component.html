@@ -8,7 +8,7 @@
     <mat-label>Filter</mat-label>
     <input matInput (keyup)="applyFilter($event)" placeholder="Ex. ium" #input>
   </mat-form-field>
-
+  <div class="container-table">
     <div class="mat-elevation-z8">
         <table mat-table [dataSource]="dataSource">
       
@@ -56,5 +56,6 @@
                        showFirstLastButtons 
                        aria-label="Select page of periodic elements">
         </mat-paginator>
+      </div>
       </div>
 </div>
